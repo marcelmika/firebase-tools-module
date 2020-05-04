@@ -1,0 +1,24 @@
+{
+  "name": "firebase-tools-module",
+  "version": "0.1.0",
+  "author": "Marcel Mika",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "peerDependencies": {
+    "firebase-tools": ">=8.2.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^8.2.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  }
+}
